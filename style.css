@@ -1,0 +1,102 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+header{
+    overflow: hidden;
+    height: 100vh;
+    
+}
+.vid-bg{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-height: 100%;
+    min-width: 100%;
+
+}
+.nav-area{
+    background-color: rgba(0,0,0,0.7);
+    height: 60px;
+    position: absolute;
+    width: 100%;
+}
+.logo{
+    margin: 0 50px;
+    height: 60px;
+    float: left;
+    color: yellow;
+    font-size: 35px;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.menu-area{
+    float: right;
+    list-style: none;
+    margin: 20px;
+
+}
+
+.menu-area li{
+    display: inline-block;
+    margin: 0 5px;
+
+}
+.menu-area li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+   
+
+}
+
+.menu-area li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+.banner-text h2{
+    color:black;
+    font-size: 55px;
+    margin: 0;
+    cursor: pointer;
+}
+.banner-text h2:hover{
+    color: darkblue;
+}
+
+.banner-text p{
+    color: green;
+    font-size: 18px;
+    margin: 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn{
+    display: inline-block;
+    margin-top: 5px;
+    text-decoration: none;
+    background-color: transparent;
+    border: 3px solid blue;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    color: red;
+    border-radius: 25px;
+}
+.btn:hover{
+    border: 3px solid red;
+    color: green;
+}
